@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        
+
         switch (item.getItemId()){
             case R.id.sign_out_menu:
                 mFirebaseAuth.signOut();
